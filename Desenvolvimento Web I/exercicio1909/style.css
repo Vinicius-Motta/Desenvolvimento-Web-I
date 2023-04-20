@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+
+
+.div1 {
+    background-color: lightgreen;
+}
+
+
+.div2 {
+    border: 2px outset black;
+   
+}
+.div2:hover{
+    background-color: lightcoral;
+}
+
+.div3  {
+    background-color: lightblue;
+}
+
+.cor {
+    background-color: white;
+}
+
+.cor2 {
+    color: blue;
+}
+
+.cor3 {
+    color: red;
+}
+
+.cor4 {
+    color: yellow;
+}
+
+.text1 {
+    text-align: left;
+}
+
+.text2 {
+    text-align: center;
+}
+
+.text3 {
+    text-align: justify;
+}
+
+.decora1 {
+    text-decoration: line-through;
+}
+
+.decora2 {
+    text-decoration: underline;
+}
+
+.transform1 {
+    text-transform: capitalize;
+}
+
+.transform2 {
+    text-transform: uppercase;
+}
+
+.indent1 {
+    text-indent: 60px;
+}
+
+.indent2 {
+    text-indent: 200px;
+}
+
+.height1 {
+    line-height: 15px;
+}
+
+.family1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.family2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.family3 {
+    font-family: 'Bungee Spice', cursive;
+}
+
+.family4 {
+    font-family: 'Anton', sans-serif;
+}
+
+.family5 {
+    font-family: 'Dancing Script', cursive;
+}
+
+.fontStyle1 {
+    font-style: italic;
+}
+
+.fontWeight {
+    font-weight: bold;
+}
+.size1{
+    font-size: 15px;
+}
+.size2{
+    font-size: 18px;
+}
+.size3{
+    font-size: 22px;
+}
+.size4{
+    font-size: 26px;
+}
+.size5{
+    font-size: 30px;
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body{
+            background-color: rgb(200, 255, 200);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg" style="background-color:rgb(107, 238, 124)">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="index.html">Futebol</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              
+              <a class="nav-link" href="tabela.html">tabela Brasileirão série A</a>
+              <a class="nav-link" href="fotos.html">Fotos</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+  <form class="row g-3 col-11 m-auto ">
+    <div class="col-md-6">
+        <label for="inputname4" class="form-label">Nome</label>
+        <input type="text" class="form-control" id="inputnome">
+      </div>
+      <div class="col-md-6">
+        <label for="inputsnome4" class="form-label">Sobrenome</label>
+        <input type="text" class="form-control" id="inputsnome">
+      </div>
+    <div class="col-md-4">
+      <label for="inputEmail4" class="form-label">Email</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="col-md-4">
+        <label for="inputZip" class="form-label">Telefone</label>
+        <input type="text" class="form-control" id="inputTelefone" placeholder="(XX)XXXX-XXXX">
+      </div>
+    <div class="col-md-4">
+      <label for="inputPassword4" class="form-label">Data de Nascimento</label>
+      <input type="text" class="form-control" id="inputData4" placeholder="DD/MM/AAAA">
+    </div>
+    <div class="col-6">
+      <label for="inputAddress" class="form-label">Endereço</label>
+      <input type="text" class="form-control" id="inputAddress" >
+    </div>
+    <div class="col-6">
+      <label for="inputAddress2" class="form-label">Complemento</label>
+      <input type="text" class="form-control" id="inputAddress2">
+    </div>
+    <div class="col-md-4">
+      <label for="inputCity" class="form-label">Cidade</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="col-md-1">
+        <label for="inputCity" class="form-label">Estado</label>
+        <input type="text" class="form-control" id="inputEstado">
+      </div>
+    <div class="col-md-4">
+      <label for="inputState" class="form-label">Time</label>
+      <select id="inputState" class="form-select">
+        <option selected>Atlético-mg</option>
+        <option selected>Palmeiras</option>
+        <option selected>Corinthians</option>
+        <option selected>Flamengo</option>
+        <option selected>São Paulo</option>
+        <option selected>Santos</option>
+        <option selected>Fluminense</option>
+        <option selected>Internacional</option>
+        <option selected>Fortaleza</option>
+      </select>
+    </div>
+    <div class="col-md-3">
+        <label for="inputCity" class="form-label">Quantidade de Títulos Brasileiros</label>
+        <input type="text" class="form-control" id="inputTitulo">
+      </div>
+      
+      <div>
+        <label for="titulos">Titulos que seu time tem:</label>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Mundial
+        </label>
+      </div>
+      
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+        <label class="form-check-label" for="flexCheckDefault">
+          Libertadores
+        </label>
+    </div>
+        
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+        <label class="form-check-label" for="flexCheckDefault">
+          SulAmericana
+        </label>
+        </div>
+        
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                    <label class="form-check-label" for="flexCheckDefault">
+                    Copa do Brasil
+                    </label>
+        </div>
+        
+        <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault5">
+                <label class="form-check-label" for="flexCheckDefault">
+                Copa do nordeste
+                </label>
+        </div>
+        
+        <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault6">
+                <label class="form-check-label" for="flexCheckDefault">
+                Regional
+                </label>
+        </div>
+      </div>
+      
+        
+      </div>
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Momento Inesquecível com seu time:</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="col-12">
+        <label for="formFile" class="form-label">Foto:</label>
+        <input class="form-control" type="file" id="formFile">
+      </div>
+    <label for="basic-url" class="form-label">Link de qualquer rede social:</label>
+    <div class="input-group">
+        <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+    </div>
+
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        <label class="form-check-label" for="flexRadioDefault1">
+          Concordo com os termos de uso 
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+        <label class="form-check-label" for="flexRadioDefault2">
+          Não concordo com os termos de uso
+        </label>
+      </div>
+    <div class="col-1">
+      <button type="submit" class="btn btn-primary">Sign in</button>
+    </div>
+    <div class="col-1">
+        <button type="reset" class="btn btn-primary">Limpar</button>
+    </div>
+  </form>
+
+</body>
+
+</html>

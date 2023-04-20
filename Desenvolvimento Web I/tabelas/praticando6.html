@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,td{
+            border: 1px solid red;   
+        }
+        td{
+            text-align: center;
+            padding: 30px 60px;
+        }
+        .cor1{
+            background-color: green;
+        }
+        .cor2{
+            background-color: red;
+        }
+        .cor3{
+            background-color: blue;
+        }
+        .cor4{
+            background-color: yellow;
+        }
+        
+       
+
+       
+    </style>
+</head>
+<body>
+    <h1>Praticando 6 - Tabela grande com colspan e rowspan e planos de fundo</h1>
+    <hr>
+    <a href="menu.html">Voltar ao menu Principal</a>   
+    <br>
+    <br>
+
+    <table >
+        <caption>Tabela grande com colspan e rowspan</caption>
+        <tr class="cor1">
+            <td colspan="2">Colspan</td>
+            <td>-</td>
+            <td rowspan="3">Rowspan</td>
+        </tr>
+        <tr class="cor2">
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+        </tr>
+        <tr class="cor3">
+            <td>-</td>
+            <td colspan="2">Colspan</td>
+        </tr>
+        <tr class="cor4">
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+        </tr>
+    </table> 
+
+    <br>
+    <br>
+    <table>
+        <caption>Legenda</caption>
+        <tr>
+            <td>Linha 1</td>
+            <td class="cor1">------</td>
+            <td>green</td>
+        </tr>
+        <tr>
+            <td>Linha 2</td>
+            <td class="cor2">------</td>
+            <td>red</td>
+        </tr>
+        <tr>
+            <td>Linha 3</td>
+            <td class="cor3">------</td>
+            <td>blue</td>
+        </tr>
+        <tr>
+            <td>Linha 4</td>
+            <td class="cor4">------</td>
+            <td>yellow</td>
+        </tr>
+    </table>
+</body>
+</html>
